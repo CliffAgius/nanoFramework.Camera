@@ -1,0 +1,11 @@
+[
+  {
+	"Name": "Camera device test",
+	"Projects": [
+	  {
+		"Path": "nanoFramework.Camera.TestApplication\\nanoFramework.Camera.TestApplication.nfproj",
+		"Action": "Start"
+	  }
+	]
+  }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+	<id>nanoFramework.Camera</id>
+	<version>1.0.0-preview.1</version>
+	<title>nanoFramework Camera</title>
+	<authors>nanoFramework.Camera contributors</authors>
+	<owners>nanoFramework.Camera contributors</owners>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>Camera capture library for nanoFramework devices with native firmware integration. The first implementation supports the AI Thinker ESP32-CAM with an OV2640.</description>
+	<tags>nanoframework camera esp32 ov2640</tags>
+	<dependencies>
+	  <group targetFramework=".NETnanoFramework1.0">
+		<dependency id="nanoFramework.CoreLibrary" version="[1.17.11, 2.0.0)" />
+	  </group>
+	</dependencies>
+	<contentFiles>
+	  <files include="any/any/native/**/*" buildAction="None" copyToOutput="false" />
+	</contentFiles>
+  </metadata>
+  <files>
+	<file src="nanoFramework.Camera\bin\Release\nanoFramework.Camera.dll" target="lib\.NETnanoFramework1.0" />
+	<file src="nanoFramework.Camera\bin\Release\nanoFramework.Camera.pe" target="lib\.NETnanoFramework1.0" />
+	<file src="nanoFramework.Camera\bin\Release\nanoFramework.Camera.pdbx" target="lib\.NETnanoFramework1.0" />
+	<file src="native\nanoFramework.Camera\nanoFramework.Camera\**\*" target="contentFiles\any\any\native\nanoFramework.Camera" />
+  </files>
+</package>

@@ -1,0 +1,17 @@
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\bin\Debug\nanoFramework.Camera.dll
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\bin\Debug\nanoFramework.Camera.pdb
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\bin\Debug\nanoFramework.Camera.pe
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\bin\Debug\nanoFramework.Camera.pdbx
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\bin\Debug\mscorlib.pe
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\bin\Debug\mscorlib.pdbx
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\bin\Debug\mscorlib.dll
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\bin\Debug\mscorlib.xml
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\nanoFramework.Camera.nfproj.AssemblyReference.cache
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\nanoFramework.Camera.nfproj.CoreCompileInputs.cache
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\nanoFramework.Camera.pe
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\nanoFramework.Camera.pdbx
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\nanoFram.5634149F.Up2Date
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\nanoFramework.Camera.dll
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\nanoFramework.Camera.pdb
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\mscorlib.dll
+C:\CA-Software\OSS\nanoFramework.Camera\nanoFramework.Camera\obj\Debug\mscorlib.xml

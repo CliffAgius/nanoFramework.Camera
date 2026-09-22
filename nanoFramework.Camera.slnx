@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="nanoFramework.Camera/nanoFramework.Camera.nfproj" Type="11a8dd76-328b-46df-9f39-f559912d0360" />
+  <Project Path="nanoFramework.Camera.TestApplication/nanoFramework.Camera.TestApplication.nfproj" Type="11a8dd76-328b-46df-9f39-f559912d0360">
+    <Deploy />
+  </Project>
+</Solution>
