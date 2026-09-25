@@ -10,7 +10,7 @@
 #include "nanoFramework_Camera_nanoFramework_Camera_Camera.h"
 
 #include <cstring>
-#include <esp_camera.h>
+#include <esp32_camera_driver.h>
 
 using namespace nanoFramework_Camera::nanoFramework_Camera;
 

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D12EC702-1392-403A-AFC5-962C198A1850}|C:\\CA-Software\\OSS\\nanoFramework.Camera{BE8C8EB1-2A3C-4F48-805B-126396E9D9F1}|C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera.slnLaunch||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D12EC702-1392-403A-AFC5-962C198A1850}|C:\\CA-Software\\OSS\\nanoFramework.Camera{BE8C8EB1-2A3C-4F48-805B-126396E9D9F1}|solutionrelative:nanoFramework.Camera.slnLaunch||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F012C11C-4A8E-4DDF-BD6D-8119A608EFF3}|nanoFramework.Camera.TestApplication\\nanoFramework.Camera.TestApplication.nfproj|c:\\ca-software\\oss\\nanoframework.camera\\nanoframework.camera.testapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F012C11C-4A8E-4DDF-BD6D-8119A608EFF3}|nanoFramework.Camera.TestApplication\\nanoFramework.Camera.TestApplication.nfproj|solutionrelative:nanoframework.camera.testapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5931032E-8722-42BC-BB35-3BAA672EE501}|nanoFramework.Camera\\nanoFramework.Camera.nfproj|c:\\ca-software\\oss\\nanoframework.camera\\nanoframework.camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5931032E-8722-42BC-BB35-3BAA672EE501}|nanoFramework.Camera\\nanoFramework.Camera.nfproj|solutionrelative:nanoframework.camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,14 +44,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F012C11C-4A8E-4DDF-BD6D-8119A608EFF3}|nanoFramework.Camera.TestApplication\\nanoFramework.Camera.TestApplication.nfproj|c:\\ca-software\\oss\\nanoframework.camera\\nanoframework.camera.testapplication\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F012C11C-4A8E-4DDF-BD6D-8119A608EFF3}|nanoFramework.Camera.TestApplication\\nanoFramework.Camera.TestApplication.nfproj|solutionrelative:nanoframework.camera.testapplication\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F012C11C-4A8E-4DDF-BD6D-8119A608EFF3}|nanoFramework.Camera.TestApplication\\nanoFramework.Camera.TestApplication.nfproj|c:\\ca-software\\oss\\nanoframework.camera\\nanoframework.camera.testapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F012C11C-4A8E-4DDF-BD6D-8119A608EFF3}|nanoFramework.Camera.TestApplication\\nanoFramework.Camera.TestApplication.nfproj|solutionrelative:nanoframework.camera.testapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D12EC702-1392-403A-AFC5-962C198A1850}|C:\\CA-Software\\OSS\\nanoFramework.Camera{BE8C8EB1-2A3C-4F48-805B-126396E9D9F1}|C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera.slnLaunch||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D12EC702-1392-403A-AFC5-962C198A1850}|C:\\CA-Software\\OSS\\nanoFramework.Camera{BE8C8EB1-2A3C-4F48-805B-126396E9D9F1}|solutionrelative:nanoFramework.Camera.slnLaunch||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -117,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "nanoFramework.Camera.slnLaunch",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera.slnLaunch",
               "RelativeDocumentMoniker": "nanoFramework.Camera.slnLaunch",
@@ -130,20 +130,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera.TestApplication\\Program.cs",
               "RelativeDocumentMoniker": "nanoFramework.Camera.TestApplication\\Program.cs",
               "ToolTip": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera.TestApplication\\Program.cs",
               "RelativeToolTip": "nanoFramework.Camera.TestApplication\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-22T15:19:01.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera.TestApplication\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "nanoFramework.Camera.TestApplication\\Properties\\AssemblyInfo.cs",
@@ -156,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera.TestApplication\\packages.config",
               "RelativeDocumentMoniker": "nanoFramework.Camera.TestApplication\\packages.config",
@@ -169,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "README.md",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -182,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "nanoFramework.Camera.nuspec",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera.nuspec",
               "RelativeDocumentMoniker": "nanoFramework.Camera.nuspec",
@@ -195,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "README.md",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\native\\README.md",
               "RelativeDocumentMoniker": "native\\README.md",
@@ -208,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "plan-esp32-cam-ov2640-library.md [Preview]",
               "DocumentMoniker": "C:\\Users\\cliff\\.copilot\\plans\\plan-esp32-cam-ov2640-library.md",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\cliff\\.copilot\\plans\\plan-esp32-cam-ov2640-library.md",
@@ -220,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera\\Camera.cs",
               "RelativeDocumentMoniker": "nanoFramework.Camera\\Camera.cs",
@@ -233,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CameraFrameSize.cs",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera\\CameraFrameSize.cs",
               "RelativeDocumentMoniker": "nanoFramework.Camera\\CameraFrameSize.cs",
@@ -246,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CameraConfiguration.cs",
               "DocumentMoniker": "C:\\CA-Software\\OSS\\nanoFramework.Camera\\nanoFramework.Camera\\CameraConfiguration.cs",
               "RelativeDocumentMoniker": "nanoFramework.Camera\\CameraConfiguration.cs",

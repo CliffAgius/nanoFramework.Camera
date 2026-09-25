@@ -13,7 +13,7 @@
 #include "nanoFramework_Camera.h"
 #include "nanoFramework_Camera_nanoFramework_Camera_Camera.h"
 
-#include <esp_camera.h>
+#include <esp32_camera_driver.h>
 
 using namespace nanoFramework_Camera::nanoFramework_Camera;
 
@@ -96,12 +96,24 @@ CLR_RT_TypedArray_UINT8 Camera::NativeGetJpeg(  HRESULT &hr )
     (void)hr;
     CLR_RT_TypedArray_UINT8 retValue = 0;
 
-    ////////////////////////////////
-    // implementation starts here //
+   camera_fb_t* fb = esp_camera_fb_get();
+    if (!fb)
+    {
+        return retValue; // returns empty array
+    }
 
+    // Allocate managed array
+    CLR_RT_HeapBlock_Array* jpegArray;
+    CLR_RT_HeapBlock& arrayRef = retValue;
 
-    // implementation ends here   //
-    ////////////////////////////////
+    CLR_RT_HeapBlock_Array::CreateInstance(arrayRef, fb->len, g_CLR_RT_WellKnownTypes.m_UInt8);
+    jpegArray = arrayRef.DereferenceArray();
+
+    // Copy JPEG data
+    memcpy(jpegArray->GetFirstElement(), fb->buf, fb->len);
+
+    // Return frame buffer to driver
+    esp_camera_fb_return(fb);
 
     return retValue;
 }

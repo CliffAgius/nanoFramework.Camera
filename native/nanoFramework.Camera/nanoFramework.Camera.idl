@@ -1,0 +1,38 @@
+// Interface contract for the nanoFramework.Camera native firmware assembly.
+
+module nanoFramework
+{
+	module Camera
+	{
+		typedef sequence<octet> ByteArray;
+
+		interface Camera
+		{
+			long NativeInit(
+				in long pinPowerDown,
+				in long pinReset,
+				in long pinXclk,
+				in long pinSiod,
+				in long pinSioc,
+				in long pinD7,
+				in long pinD6,
+				in long pinD5,
+				in long pinD4,
+				in long pinD3,
+				in long pinD2,
+				in long pinD1,
+				in long pinD0,
+				in long pinVsync,
+				in long pinHref,
+				in long pinPclk,
+				in long xclkFrequencyHz,
+				in long frameSize,
+				in long jpegQuality,
+				in long frameBufferCount);
+
+			ByteArray NativeGetJpeg();
+
+			void NativeDeinit();
+		};
+	};
+};
